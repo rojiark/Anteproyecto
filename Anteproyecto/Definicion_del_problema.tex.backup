@@ -1,0 +1,142 @@
+\chapter{Definicion del problema}
+\label{ch:Definicion_del_problema}
+
+
+\section{Generalidades}
+
+Como generalidad del entorno de los sistemas embebidos se encuentra la dificultad para los desarrolladores de trasladares de un paradigma
+de programación secuencial a uno que implique la utilización de múltiples unidades de procesamiento en forma paralela de las nuevas
+generaciones de plataformas multi núcleo, reutilizando para ello código ya existente (\textit{Legacy Code}).\\
+
+En términos generales existen herramientas para la plataforma KeyStone I, sin embargo estas no se encuentran optimizadas para un mejor
+consumo de los recursos y de la energía, por lo que la optimización de las mismas es un aspecto a considerar.\\
+
+De forma mas especifica, para la plataforma KeyStone II no existe ninguna herramienta que logre programar sus múltiples núcleos heterogéneos
+de manera automática, generando código paralelo a partir de código secuencial en C.
+
+  
+
+\index{pstricks}
+Los archivos con extensión \texttt{.pstricks} en el directorio \texttt{fig} se
+utilizan para generar cualquier tipo de imágenes según el código que se
+contenga.  Es un concepto más general que el anterior.  La
+figura~\ref{fig:pstricks} ha sido creada con este esquema.  Puede revisar los
+archivos \texttt{prototipo\_gnuplot*} como un ejemplo de su uso, en donde de un
+archivo gnuplot (\texttt{\_.gp}) se genera un archivo \texttt{\_.eps}, el cual
+es incluido en el archivo \texttt{.pstricks} sustituyendo cadenas de texto por
+código LaTeX.
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics{/home/rojiar/TEC/Anteproyecto/Anteproyecto/fig/prototipo_gnuplot}
+  \caption{Ejemplo de imagen gnuplot/pstricks}
+  \label{fig:pstricks}
+\end{figure}
+
+\subsubsection{Entradas en el índice de figuras}
+
+El índice de figuras debe servir para encontrar rápidamente dónde se encuentra
+cierta figura.  El pie de la figura, indicado en \LaTeX con \texttt{caption}
+puede ser extenso, en especial para indicar detalles de las figura, y es la
+entrada por defecto que aparecerá en el índice de figuras, la cual no debe
+superar la extensión de una línea y debe únicamente dar la idea del contenido
+de la figura para poder ser encontrada.  Para lograr esto en \LaTeX se utiliza
+\begin{verbatim}
+  \caption[Texto en el índice]{Texto al pie de la figura}
+\end{verbatim}
+
+\subsection{Referencias bibliográficas}
+
+\index{referencias}\index{BibTeX}
+Todo concepto o idea tomado de otros autores contar con la respectiva
+referencia. En redacción técnica de ingeniería rara vez se utiliza la cita
+textual, así que es necesario reformular las ideas y conceptos con palabras
+propias. En ingeniería electrónica se utilizan los formatos de referencia de la
+IEEE o la ACM, que son numéricos, encerrados entre paréntesis cuadrados (por
+ejemplo, ``En \cite{BELS} se propuso un nuevo algoritmo'', o ``En
+\cite{ISEIISP1} los autores proponen tomar las ventajas de los
+algorimos presentados en \cite{Oppenheim1998,Roberts2005,Haykin2001} por medio
+del método de Newton \cite{Burrus1998} conocido en el área de optimización
+lineal.''). La referencia es parte de las frases, así que si la frase termina
+con la referencia para indicar la idea, ésta debe estar antes del punto final o
+demás signos de puntuación: ``La capacidad de memoria también sigue una Ley
+similar a la de Moore \cite{Octave}. Los siguientes son los aspectos a tomar en
+cuenta en el diseño del sistema \cite{Lindner2002}:''
+
+Se recomienda utilizar BibTeX para administrar las referencias bibliográficas.
+
+\subsection{Extensión}
+
+\index{extensión}
+Una tesis de licenciatura no debe sobrepasar las 120 páginas incluyendo
+apéndices y los formalismos desde portada hasta índices.
+
+El cuerpo de la tesis (desde introducción hasta conclusiones) usualmente se
+extiende desde 45 páginas hasta no más de 80, dependiendo de la problemática
+tratada.
+
+No es necesario reproducir contenidos de otras fuentes: agregue las referencias
+a dichas fuentes, y limítese a enunciar lo estrictamente necesario para
+comprender sus propuestas de solución.
+
+\section{Sobre esta plantilla \LaTeX}
+
+Esta plantilla \LaTeX pretende simplificar varios pasos en la creación del
+documento de tesis.
+
+\subsection{Marcar asuntos pendientes}
+
+La plantilla tiene dos ``\emph{modos}'' de operación: normal y borrador
+(\emph{draft}).  En el archivo \texttt{main.tex} a partir de la línea 41 usted
+encuentra el código
+
+\begin{verbatim}
+%
+% DRAFT MODE
+%
+\newboolean{draftmode}                  % boolean used to control draft-mode
+% Ensure that only one of the next two lines is active:
+\setboolean{draftmode}{true}            % turn draft mode on
+%\setboolean{draftmode}{false}           % turn draft mode off
+\end{verbatim}
+
+Con el modo borrador, se activan ciertos comandos y funcionalidades útiles en
+el proceso de elaboración de la tesis, pero que deben ser desactivados al
+final, antes de entregar la tesis.  Por ejemplo, se activa el pie de página que
+dice ``\emph{Borrador: fecha}'', y se activa el índice titulado ``Revisar''.  En dicho índice aparecen las páginas en donde se hayan utilizado alguno de los siguientes comandos:
+\begin{compactitem}
+\item \verb+\boxcomment{comentario}+ Crea una caja en el margen de página con
+  el comentario indicado.
+\item \verb+\explain{comentario}+ Crea una caja en el margen de página con
+  el comentario indicado, con una flecha hacia la derecha para indicar qué en
+  concreto debe ser revisado.
+\item \verb+\chk{comentario}+ Crea una caja en el margen con símbolo de
+  ``chequeado'' y el comentario indicado.
+\item \verb+\TODO{comentario}+ Crea una caja grande de fondo sombreado con el
+  comentario indicado.
+\end{compactitem}
+
+En este párrafo se\chk{resultado de chk} utilizan algunos de estos comandos
+para ilustrar su efecto.  El \verb+\chk+ como puede observar tiene sentido
+usarlo para marcar que algo está casi listo.  Por otro lado \explain{explain}
+el comando \verb+\explain+ permite marcar algo que requiere ser revisado en
+redacción, valores, etc.  El \verb+\boxcomment+\boxcomment{La caja simple}
+solo pone una marca al margen.
+
+\TODO{Finalmente el comando \texttt{TODO} coloca esta caja gris.}
+
+Si usted desativa el modo draft, desaparecen todas las páginas, y desaparece el
+índice ``Revisar''.  En éste índice aparecen todas las páginas en donde se
+utilizaron estos comandos con los respectivos comentarios, lo que permite
+encontrar rápidamente detalles que usted indicó que debe revisar.
+
+\subsection{Índices}
+
+Como índice se conoce la lista de términos claves con su respectiva página, al
+final del documento.  La plantilla ofrece varios comandos para simplificar el
+uso estandar del comando de \LaTeX\ \verb+\index{termino}+ que coloca al término
+indicado en el índice.  Con \verb+\nt[indice]{termino}+ (\emph{new term}) usted
+indica la entrada principal del término, que aparece en el texto en el índice,
+es decir, en el índice aparece lo que indique en vez de ``indice'' y en el
+texto aparece lo que indique ``termino''; \verb+\ot{termino}+ agrega una
+entrada secundaria al término.

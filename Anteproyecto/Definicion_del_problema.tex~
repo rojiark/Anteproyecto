@@ -1,0 +1,25 @@
+\chapter{Definicion del problema}
+\label{ch:Definicion_del_problema}
+
+
+\section{Generalidades}
+
+Como generalidad del entorno de los sistemas embebidos se encuentra la dificultad para 
+los desarrolladores de trasladares de un paradigma de programación secuencial a uno que 
+implique la utilización de múltiples unidades de procesamiento en forma paralela de las nuevas
+generaciones de plataformas multi núcleo, reutilizando para ello código ya existente (\textit{Legacy Code}).\\
+
+En términos generales existen herramientas para la plataforma KeyStone I, sin embargo estas
+no se encuentran optimizadas para un mejor consumo de los recursos y de la energía, por lo 
+que la optimización de las mismas es un aspecto a considerar.\\
+
+De forma mas especifica, para la plataforma KeyStone II no existe ninguna herramienta que logre
+programar sus múltiples núcleos heterogéneos de manera automática, generando código paralelo a 
+partir de código secuencial en C.
+
+
+
+\section{Sintesis del problema}
+
+Inexistencia y falta de optimizacion de una herramienta de generacion automatica 
+de codigo paralelo a partir de codigo secuencial C para las plataformas MPSoC KeyStone de Texas Instruments.

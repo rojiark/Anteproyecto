@@ -1,0 +1,56 @@
+\begin{thebibliography}{10}
+
+\bibitem{RWTH_AACHEN_REF}
+Excellence initiative, Noviembre 2013.
+\newblock URL
+  \url{http://www.rwth-aachen.de/cms/root/Die_RWTH/~emq/Exzellenzinitiative/li%
+dx/1/}.
+
+\bibitem{ICE_ABOUT}
+Institute for communications technologies and embedded systems, Noviembre 2013.
+\newblock URL \url{http://www.ice.rwth-aachen.de/institute/about-us/}.
+
+\bibitem{LERTA}
+Doug Abbot.
+\newblock {\em Linux for Embedded and Real-time Applications}.
+\newblock Newnes, 2003.
+
+\bibitem{LERTA_RT}
+Doug Abbot.
+\newblock {\em Linux for Embedded and Real-time Applications}, chapter~1, pages
+  2,3.
+\newblock Newnes, 2003.
+
+\bibitem{TAODES}
+Jack Ganssle.
+\newblock {\em The Art of Designing Embedded Systems}.
+\newblock Newnes, 2008.
+
+\bibitem{MAPS1}
+W.~Sheng H. Scharwächter R. Leupers G. Ascheid H. Meyr T. Isshiki H.~Kunieda
+  J.~Cheng, J.~Castrillon.
+\newblock Maps: An integrated framework for mpsoc application parallelization.
+\newblock In {\em 45th Design Automation Conference (DAC '08)}, pages 754--759,
+  June 2008.
+
+\bibitem{KSII1}
+Texas Instruments.
+\newblock {\em KeyStone II User's Guide}, December 2013.
+
+\bibitem{KSI1}
+Texas Instruments.
+\newblock {\em TMS320C6678 Multicore Fixed and Floating-Point Digital Signal
+  Processor}, Abril 2013.
+
+\bibitem{MK1}
+Marilyn Wolf.
+\newblock {\em Computers as components: Principles of embedded computing
+  design}.
+\newblock Morgan Kaufmann, 2007.
+
+\bibitem{MK2}
+Marilyn Wolf.
+\newblock {\em High-Performance Embedded Computing}.
+\newblock Morgan Kaufmann, 2007.
+
+\end{thebibliography}

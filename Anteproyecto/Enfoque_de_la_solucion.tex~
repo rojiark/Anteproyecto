@@ -1,0 +1,25 @@
+\chapter{Enfoque de la solución}
+\label{ch:Enfoque_de_la_solucion}
+
+El enfoque que se pretende dar a la solución se basa en la utilizacion de un lenguage de programacion
+de alto nivel como lo es C, para el diseno e implementacion de un algoritmo que permita la programacion
+de diferentes unidades de procesamiento en plataformas MPSoC. El desarrollo va a ser realizado en un ambiente
+Linux que facilite el uso de los recursos de la plataforma asi como la depuracion y evalacion de los diferentes
+componentes de hardware que se emplearan.\\
+
+Ademas del lenguaje a utilizar, se pretende manejar otros elementos a nivel de software como lo son simuladores, 
+depuradores y las bibliotecas para compilacion cruzada, los cuales estaran integrados dentro de un ambiente de 
+desarrollo (\textit{IDE, Integrated Development Enviroment}) de Texas Instruments que podra ser descargado y 
+utilizado sin algun costo. Sin embargo, debera desarrollarse interfaces especificas 
+(\textit{API's, Application Programming Interface}) que puedan integrarse al IDE de Texas Instruments para 
+la correcta validacion de lo realizado.\\
+
+Agregado a lo anterior se manipularan plataformas de hardware destinadas a ser los elementos objetivo de la
+programacion, especificamente KeyStone I y II. La primera tiene como unidades de procesamiento 8 DSP's 
+TMS320C66x, mientras que la segunda implementa en su arquitectura la misma cantidad y tipo de DSP's
+mas 4 procesadores de proposito general ARM Cortex-A15.\\
+
+Tambien sera necesario utilizar diversos instrumentos de medicion como analizadores logicos y osciloscopios
+que permitan la depuracion mediante senales electricas de los comportamientos no deseados en el sistema en general.\\
+
+Con lo anterior establecido entonces se podra realizar la programacion del algoritmo y su posterior depuracion

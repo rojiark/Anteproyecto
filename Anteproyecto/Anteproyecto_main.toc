@@ -1,0 +1,11 @@
+\select@language {english}
+\contentsline {chapter}{\'{I}ndice de figuras}{ii}{section*.3}
+\contentsline {chapter}{\'Indice de tablas}{iii}{section*.5}
+\contentsline {chapter}{\numberline {1}Entorno del proyecto}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Definicion del problema}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Generalidades}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}S\IeC {\'\i }ntesis del problema}{4}{section.2.2}
+\contentsline {chapter}{\numberline {3}Enfoque de la soluci\IeC {\'o}n}{5}{chapter.3}
+\contentsline {chapter}{\numberline {4}Resultados y An\IeC {\'a}lisis}{6}{chapter.4}
+\contentsline {chapter}{Bibliograf\'{\i }a}{7}{section*.7}
+\contentsline {chapter}{\numberline {A}Demostraci\IeC {\'o}n del teorema de Nyquist}{8}{appendix.A}
