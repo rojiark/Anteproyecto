@@ -1,0 +1,28 @@
+%% ---------------------------------------------------------------------------
+%% Objetivos.tex
+%%
+%% Objetivos
+%%
+%% rojiark
+%% ---------------------------------------------------------------------------
+
+\chapter{Objetivos}
+\label{ch:Objetivos}
+
+\section{Objetivo General}
+
+Diseñar una herramienta de generación automática de código paralelo a partir de código secuencial para ser utilizada
+como plataforma de programación en dispositivos de múltiples unidades de procesamiento.
+
+
+\section{Objetivos Específicos}
+\begin{enumerate}
+ \item Optimizar la herramienta existente de generación automatica de codigo C paralelo para la plataforma KeyStone I.\\
+ \textbf{Indicador:}
+ 
+ \item Disenar e implementar la herramienta de generación automática de codigo C paralelo para los MPSoC KeyStone II.\\
+ \textbf{Indicador:}
+ 
+ \item Validar la herramienta creada mediante la programación, compilacion y ejecucion de programas de prueba (\textit{Benchmarks}).\\
+ \textbf{Indicador:}
+\end{enumerate}

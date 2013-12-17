@@ -48,7 +48,7 @@
 \newcommand{\scriptAuthor}{Ronny Jiménez Araya}
 
 % Título de la tesis
-\newcommand{\scriptTitle}{Diseño de una herramienta de generación automática de código para plataformas MPSoC} 
+\newcommand{\scriptTitle}{Diseño de una herramienta de generación automática de código para las plataformas MPSoC KeyStone} 
 
 % Keywords
 \newcommand{\scriptKeywords}{palabras, clave, ...}
@@ -99,7 +99,7 @@
   \parskip0ex                           % space between paragraphs
 
   \tableofcontents                                      % Table of contents
-  \listoffigures                                        % List of figures
+  %\listoffigures                                        % List of figures
   \listoftables                                         % List of tables
 
 %\ifdraft{%
@@ -123,8 +123,11 @@
   \include{Entorno_del_proyecto}
   \include{Definicion_del_problema}
   \include{Enfoque_de_la_solucion}
-  \include{resultados}
-  \include{conclusiones}
+  \include{Meta}
+  \include{Objetivos}
+  \include{Procedimientos_para_la_ejecucion_del_proyecto}
+  \include{Uso_de_recursos}
+  \include{Presupuesto}
 
   %----------------------------------------------------------------------------
   % literature
@@ -136,7 +139,6 @@
   \appendix
   %----------------------------------------------------------------------------
 
-  \include{apendice}
 
   %----------------------------------------------------------------------------
   \backmatter

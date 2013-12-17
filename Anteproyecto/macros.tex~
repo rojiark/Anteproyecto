@@ -360,6 +360,3 @@
 %%% TeX-master: "main"
 %%% End: 
 
-
-\usepackage{titlesec}
-\titlespacing{\chapter}{0pt}{0pt}{1cm}

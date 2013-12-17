@@ -1,5 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Author:  Pablo Alvarado
+% Autor de la plantilla:  Pablo Alvarado
+%
+% Autor del documento: Ronny Jimenez
 %
 % Escuela de Ingeniería Electrónica
 % Instituto Tecnológico de Costa Rica
@@ -15,7 +17,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % \documentclass is book
-\documentclass[12pt,twoside,letterpaper]{book}
+\documentclass[12pt,oneside,letterpaper]{book}
 
 \usepackage[utf8]{inputenc}
 \usepackage{ifthen}                     % provide if-then-else operators
@@ -36,17 +38,17 @@
 %
 \newboolean{draftmode}                  % boolean used to control draft-mode
 % Ensure that only one of the next two lines is active:
-\setboolean{draftmode}{true}            % turn draft mode on
+%\setboolean{draftmode}{true}            % turn draft mode on
 \setboolean{draftmode}{false}           % turn draft mode off
 % --------------------------------------------------------------------------
 %
 % GENERAL AUTHOR, TITLE AND KEYWORDS
 %
 % Nombre del Estudiante
-\newcommand{\scriptAuthor}{Ronny Jimenez Araya}
+\newcommand{\scriptAuthor}{Ronny Jiménez Araya}
 
 % Título de la tesis
-\newcommand{\scriptTitle}{Diseño de una herramienta de generación automática de código para plataformas MPSoC} 
+\newcommand{\scriptTitle}{Diseño de una herramienta de generación automática de código para las plataformas MPSoC KeyStone} 
 
 % Keywords
 \newcommand{\scriptKeywords}{palabras, clave, ...}
@@ -87,7 +89,6 @@
   %\include{resumen}
   %\include{dedicatoria}
   %\include{agradecimientos}
-
   %----------------------------------------------------------------------------
   \frontmatter
   %----------------------------------------------------------------------------
@@ -101,11 +102,11 @@
   \listoffigures                                        % List of figures
   \listoftables                                         % List of tables
 
-\ifdraft{%
+%\ifdraft{%
   % todo's                                              % TODOs
-  \listoftodo
-}{%
-}
+ % \listoftodo
+%}{%
+%}
 
   \include{notation}                                    % Notation
   \include{glosario}                                    % Abbreviation
@@ -119,23 +120,25 @@
   \graphicspath{{./}{/home/rojiar/TEC/Anteproyecto/Anteproyecto/fig/}}
 
   % Main files
-  \include{intro}
-  \include{teoria}
-  \include{solucion}
-  \include{resultados}
-  \include{conclusiones}
+  \include{Entorno_del_proyecto}
+  \include{Definicion_del_problema}
+  \include{Enfoque_de_la_solucion}
+  \include{Meta}
+  \include{Objetivos}
+  \include{Procedimientos_para_la_ejecucion_del_proyecto}
+  \include{Uso_de_recursos}
+  \include{Presupuesto}
 
   %----------------------------------------------------------------------------
   % literature
   \bibliographystyle{sty/plainurl} % for english documents
-  \bibliography{literatura}
+  \bibliography{referencias}
   %----------------------------------------------------------------------------
 
   %----------------------------------------------------------------------------
   \appendix
   %----------------------------------------------------------------------------
 
-  \include{apendice}
 
   %----------------------------------------------------------------------------
   \backmatter

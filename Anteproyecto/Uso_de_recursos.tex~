@@ -1,0 +1,42 @@
+%% ---------------------------------------------------------------------------
+%% Uso de recursos.tex
+%%
+%% Uso de recursos
+%%
+%% rojiark
+%% ---------------------------------------------------------------------------
+
+\chapter{Uso de recursos}
+\label{ch:Uso_de_recursos}
+
+Los recursos a utilizar durante el proyecto incluyen desde tarjetas de evaluacion asi 
+como herramientas informaticas, depuradores, simuladores, osciloscopios y diferentes dispositivos perifericos.
+La lista completa se muestra acontinuacion:
+
+\begin{itemize}
+ \item 1 Tarjeta de evaluación de Texas Instruments que contenga la
+  arquitectura KeyStone I (C66xx), como la EVM TMS3206657 Lite
+  Evaluation Module.
+ \item 1 Depurador de hardware capaz de realizar emulaciones del
+  sistema y de arquitecturas de DSP C6678 de TI.
+ \item 1 Depurador de software para las arquitecturas de DSP C6678 de
+  TI.
+ \item 1 Tarjeta de evaluación de Texas Instruments que contenga la
+  arquitectura KeyStone II (66AK2H12xx) como la EVM 66AK2H12AAAW2.
+ \item 1 Depurador de hardware capaz de realizar emulaciones del
+  sistema y de arquitecturas ARM Cortex-A15 y de DSP C6678,
+  ambas de TI.
+ \item 1 Depurador de software para las arquitecturas ARM Cortex-A15
+  y DSP C6678, de Texas Instruments.
+ \item 1 Computadora portátil con un procesador suficientemente
+  robusto que soporte simulaciones y depuraciones de sistemas
+  complejos.
+ \item 1 Instalación nativa de Linux Ubuntu12.04 LTS en la computadora
+  portátil.
+ \item 1 Instalación del entorno de desarrollo integrado (IDE) de Texas
+  Instruments, conocido como Code Composer Studio.
+ \item 1 Instalación de un analizador de sistemas Multicore.
+
+\end{itemize}
+
+

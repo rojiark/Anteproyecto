@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.12.2)  16 DEC 2013 23:32
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.12.2)  17 DEC 2013 03:14
 entering extended mode
  %&-line parsing enabled.
 **Anteproyecto_main.tex
@@ -1042,8 +1042,9 @@ Writing index file Anteproyecto_main.idx
 Writing nomenclature file Anteproyecto_main.nlo
 ) (./Anteproyecto_main.aux (./titlepage.aux) (./disclaimer.aux) (./notation.aux
 ) (./glosario.aux) (./Entorno_del_proyecto.aux) (./Definicion_del_problema.aux)
-(./Enfoque_de_la_solucion.aux) (./resultados.aux) (./conclusiones.aux)
-(./apendice.aux))
+(./Enfoque_de_la_solucion.aux) (./Meta.aux) (./Objetivos.aux)
+(./Procedimientos_para_la_ejecucion_del_proyecto.aux) (./Uso_de_recursos.aux)
+(./Presupuesto.aux))
 \openout1 = `Anteproyecto_main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
@@ -1099,7 +1100,7 @@ LaTeX Info: Redefining \pageref on input line 74.
 \openout2 = `titlepage.aux'.
 
  (./titlepage.tex
-</home/rojiar/TEC/Anteproyecto/Anteproyecto/fig/TEC.pdf, id=47, 154.5775pt x 21
+</home/rojiar/TEC/Anteproyecto/Anteproyecto/fig/TEC.pdf, id=75, 154.5775pt x 21
 1.79124pt>
 File: /home/rojiar/TEC/Anteproyecto/Anteproyecto/fig/TEC.pdf Graphic file (type
  pdf)
@@ -1116,16 +1117,16 @@ cto/Anteproyecto/fig/TEC.pdf>]
 
 ]
 (./Anteproyecto_main.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 6.
+LaTeX Font Info:    Try loading font information for U+msa on input line 5.
  (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 6.
+LaTeX Font Info:    Try loading font information for U+msb on input line 5.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 6.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 5.
 
 (/usr/share/texmf-texlive/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -1138,17 +1139,11 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 
 ]
-(./Anteproyecto_main.lof)
-\tf@lof=\write7
-\openout7 = `Anteproyecto_main.lof'.
+(./Anteproyecto_main.lot)
+\tf@lot=\write7
+\openout7 = `Anteproyecto_main.lot'.
 
  [2
-
-] (./Anteproyecto_main.lot)
-\tf@lot=\write8
-\openout8 = `Anteproyecto_main.lot'.
-
- [3
 
 ]
 \openout2 = `notation.aux'.
@@ -1156,8 +1151,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
  (./notation.tex)
 \openout2 = `glosario.aux'.
 
-
-(./glosario.tex
+ (./glosario.tex
 No file Anteproyecto_main.nls.
 )
 \openout2 = `Entorno_del_proyecto.aux'.
@@ -1194,23 +1188,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--35
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 37--42
+Underfull \hbox (badness 10000) in paragraph at lines 36--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--49
+Underfull \hbox (badness 10000) in paragraph at lines 42--48
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 58.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 57.
 (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 58.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 57.
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--67
+Underfull \hbox (badness 10000) in paragraph at lines 63--66
 
  []
 
@@ -1220,12 +1214,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--67
  (./Definicion_del_problema.tex
 Cap\'{\i }tulo 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--11
+Underfull \hbox (badness 10000) in paragraph at lines 15--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--15
+Underfull \hbox (badness 10000) in paragraph at lines 20--23
 
  []
 
@@ -1239,22 +1233,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--15
  (./Enfoque_de_la_solucion.tex
 Cap\'{\i }tulo 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--9
+Underfull \hbox (badness 10000) in paragraph at lines 13--18
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--16
+Underfull \hbox (badness 10000) in paragraph at lines 19--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--21
+Underfull \hbox (badness 10000) in paragraph at lines 26--30
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--24
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
  []
 
@@ -1262,62 +1256,136 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
 
 
-]
-\openout2 = `resultados.aux'.
+] [6]
+\openout2 = `Meta.aux'.
 
- (./resultados.tex
+ (./Meta.tex
 Cap\'{\i }tulo 4.
-) [6
+) [7
 
 
 
 ]
-\openout2 = `conclusiones.aux'.
+\openout2 = `Objetivos.aux'.
 
+ (./Objetivos.tex
+Cap\'{\i }tulo 5.
 
-No file conclusiones.tex.
-(./Anteproyecto_main.bbl) [7
+Overfull \hbox (0.41347pt too wide) in paragraph at lines 14--17
+\OT1/cmr/m/n/12 se-cuen-cial pa-ra ser uti-li-za-da co-mo pla-ta-for-ma de pro-
+gra-ma-ci^^Son en dis-po-si-ti-vos de m^^Sultiples
+ []
 
-
-
-
-]
-\openout2 = `apendice.aux'.
-
- (./apendice.tex
-Ap\'{e}ndice A.
 ) [8
+
+
+
+]
+\openout2 = `Procedimientos_para_la_ejecucion_del_proyecto.aux'.
+
+ (./Procedimientos_para_la_ejecucion_del_proyecto.tex
+Cap\'{\i }tulo 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--35
+
+ []
+
+[9
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 36--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--45
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+[11]) [12]
+\openout2 = `Uso_de_recursos.aux'.
+
+ (./Uso_de_recursos.tex
+Cap\'{\i }tulo 7.
+) [13
+
+
+
+]
+\openout2 = `Presupuesto.aux'.
+
+ (./Presupuesto.tex
+Cap\'{\i }tulo 8.
+[14
+
+
+
+]) [15] (./Anteproyecto_main.bbl) [16
 
 
 ]
 No file Anteproyecto_main.ind.
-
-Package caption Warning: Unused \captionsetup[table] on input line 313.
-See the caption package documentation for explanation.
-
 AED: lastpage setting LastPage (./Anteproyecto_main.aux (./titlepage.aux)
 (./disclaimer.aux) (./notation.aux) (./glosario.aux)
 (./Entorno_del_proyecto.aux) (./Definicion_del_problema.aux)
-(./Enfoque_de_la_solucion.aux) (./resultados.aux) (./conclusiones.aux)
-(./apendice.aux)) ) 
+(./Enfoque_de_la_solucion.aux) (./Meta.aux) (./Objetivos.aux)
+(./Procedimientos_para_la_ejecucion_del_proyecto.aux) (./Uso_de_recursos.aux)
+(./Presupuesto.aux)) ) 
 Here is how much of TeX's memory you used:
- 8664 strings out of 494999
- 122066 string characters out of 1180816
- 208707 words of memory out of 3000000
- 11516 multiletter control sequences out of 15000+50000
+ 8740 strings out of 494999
+ 123252 string characters out of 1180816
+ 211348 words of memory out of 3000000
+ 11534 multiletter control sequences out of 15000+50000
  12732 words of font info for 48 fonts, out of 3000000 for 9000
  54 hyphenation exceptions out of 8191
- 40i,11n,43p,298b,337s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmb
-x10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
-sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
-mf-texlive/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texmf-texlive/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1
-/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
-fonts/cm/cmtt12.pfb>
-Output written on Anteproyecto_main.pdf (13 pages, 126025 bytes).
+ 40i,12n,43p,399b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
+cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
+texmf-texlive/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmtt12.pfb>
+Output written on Anteproyecto_main.pdf (20 pages, 154530 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 94 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 293 PDF objects out of 1000 (max. 8388607)
+ 84 named destinations out of 1000 (max. 500000)
+ 150 words of extra memory for PDF output out of 10000 (max. 10000000)
 

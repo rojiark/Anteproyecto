@@ -19,7 +19,7 @@ partir de código secuencial en C.
 
 
 
-\section{Sintesis del problema}
+\section{Síntesis del problema}
 
-Inexistencia y falta de optimizacion de una herramienta de generacion automatica 
-de codigo paralelo a partir de codigo secuencial C para las plataformas MPSoC KeyStone de Texas Instruments.
+Inexistencia y falta de optimización de una herramienta de generación automática 
+de código paralelo a partir de código secuencial C para las plataformas MPSoC KeyStone de Texas Instruments.

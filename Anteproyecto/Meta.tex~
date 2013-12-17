@@ -1,0 +1,19 @@
+%% ---------------------------------------------------------------------------
+%% Meta.tex
+%%
+%% Meta
+%%
+%% rojiark
+%% ---------------------------------------------------------------------------
+
+\chapter{Meta}
+\label{ch:Meta}
+
+La meta a alcanzar con el presente Proyecto de graduacion es brindarle 
+al \textit{Institute for Communications Technologies and Embedded Systems}
+de la universidad alemana \textit{RWTH Aachen University} una herramienta 
+que puedan incorporar en su aplicacion MAPS, con el fin de proporcionar 
+un entorno mejorado para la programacion de los actuales y futuros dispositivos 
+multi nucleo en los cuales su arquitectura este basada en unidades de procesamiento
+heterogeneo y con la mentalidad de una posible comercializacion de la aplicacion 
+total a un mediano o largo plazo.
