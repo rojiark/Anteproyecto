@@ -15,35 +15,35 @@ El proyecto primeramente consistirá en el estudio de las arquitecturas
 KeyStone I y II, con el fin de establecer características propias de cada
 plataforma que las diferencien tanto en su funcionamiento como en su posible
 programación, incluyendo aspectos relevantes de los lenguajes que se utilizan
-para programar DSP's así como los desafíos que involucra la programación de los mismos.\\
+para programar DSP's, así como los desafíos que involucra la programación de los mismos.\\
 
-Una vez concluido esto, se estudiara las herramientas existentes actualmente para programación en paralelo, 
-con el fin de definir pruebas que puedan ser utilizadas para detectar debilidades a optimizar 
-dentro de las aplicaciones, en especifico la existente para \newline KeyStone I.\\
+Una vez concluido esto, se estudiará las herramientas que existen actualmente para programación en paralelo, 
+con el fin de definir pruebas que puedan ser utilizadas para detectar posibles debilidades a optimizar 
+dentro de las aplicaciones, en específico la existente para \newline KeyStone I.\\
 
 Se procederá en la optimización de los puntos críticos determinados anteriormente 
 y en la validación de la herramienta mediante pruebas de rendimiento, con lo cual se concluiría 
 el primer objetivo específico que se plantea en este documento.\\
 
 Se debe de estudiar lo relevante a los modelos de programación en paralelo como los algoritmos
-de conversión secuencial a paralelo. En especifico debe de
-estudiarse las Redes de Procesamiento de Kahn (\textit{Pansa, Kahn Procesa Nitrosa}).
+de conversión secuencial a paralelo. En específico debe de dársele 
+importante atención las Redes de Procesamiento de Kahn (\textit{KPNs, Kahn Process Networks}).\\
 
-Se empezara la implementación de los algoritmos y entornos que se requieren para la generación automática
+Se empezará la implementación de los algoritmos y entornos que se requieren para la generación automática
 de código paralelo, así como su programación en un entorno
-basado en Linux y con la herramienta de Texas Instruments Code Composer Studio (\textit{CES}).\\
+basado en Linux y con la herramienta de Texas Instruments Code Composer Studio (\textit{CCS}).\\
 
 Se dispondrá a diseñar pruebas específicas para la herramienta, con el fin de 
 depurar el sistema en las debilidades más notables y posteriormente comprobar la optimización de la
-misma, concluyendo así el segundo objetivo especifico.\\
+misma, concluyendo así el segundo objetivo específico.\\
 
-Se pretender exponer la herramienta recién creada a un conjunto de pruebas
+Se pretende exponer la herramienta recién creada a un conjunto de pruebas
 ya existentes y establecidas específicamente para la arquitectura KeyStone II. 
-Esto con la intención realizar un perfilado de la aplicación y determinar gráficas de rendimiento, 
+Esto con la intención de realizar un perfilado de la aplicación y determinar gráficas de rendimiento, 
 realizando comparaciones entre las diferentes plataformas KeyStone y las
 herramientas de generación de código.\\
 
-Finalmente como parte integral del proyecto, se brindaran conclusiones acerca
+Finalmente como parte integral del proyecto, se brindarán conclusiones acerca
 del mismo, y los futuros proyectos que puedan involucrarse, ya sea para
 optimizar la herramienta o bien en su utilización para nuevos paradigmas.
 
@@ -55,9 +55,9 @@ en orden cronológico:
 \begin{enumerate}
  \item Estudiar las arquitecturas presentes en las tarjetas de desarrollo KeyStone I y II.
  \item Establecer diferencias importantes entre ambas tarjetas.
- \item Familiarizarse con el IDEA de TI Code Composer Studio, realizando para ellos ejemplos de pruebas
- y simulaciones para tarjetas especificas.
- \item Estudiar acerca de las herramientas de Texas Instruments como el Mullicare Nalgatorio, y las
+ \item Familiarizarse con el IDE de TI, Code Composer Studio, realizando para ello ejemplos de pruebas
+ y simulaciones para tarjetas específicas.
+ \item Estudiar acerca de las herramientas de Texas Instruments como el Multicore Navigator, y las
  bibliotecas \textit{IPC, Inter-Processor Communication} y \textit{openMP} .
  \item Investigar modelos de programación con estructuras en paralelo.
  \item Investigar características propias de los sistemas operativos de TI para DSP's, específicamente
@@ -70,15 +70,15 @@ en orden cronológico:
  \item Comprobar la mejora o no en el rendimiento de la herramienta, utilizando como punto de partida
  la herramienta sin optimizar.\\
  
- Para cumplir con el segundo objetivo especifico se proponen estas actividades: \\
+ Para cumplir con el segundo objetivo específico se proponen estas actividades: \\
  
  \item Estudiar acerca de concurrencia y paralelismo en núcleos heterogéneos
  \item Investigar sobre el funcionamiento de Colas (\textit{FIFO, First In First Out}).
- \item Estudiar a profundidad las \textit{Pansa} en donde se utilizan las \textit{FIFO}.
- \item Comprender el algoritmo que se utiliza en las \textit{Pansa} con el fin de realizar un diagrama
+ \item Estudiar a profundidad las \textit{KPNs} en donde se utilizan las \textit{FIFO}.
+ \item Comprender el algoritmo que se utiliza en las \textit{KPNs} con el fin de realizar un diagrama
  de flujo del método en si.
- \item Programar el algoritmo de las \textit{Pansa} utilizando las \textit{FIFO}.
- \item Integrar el algoritmo en si a una herramienta que pueda ser ejecutada mediante un IDEA o la linea de
+ \item Programar el algoritmo de las \textit{KPNs} utilizando las \textit{FIFO}.
+ \item Integrar el algoritmo a una herramienta que pueda ser ejecutada mediante un IDE o la linea de
  comandos de Linux.
  \item Realizar pruebas que comprueben el funcionamiento deseado de la herramienta.
  \item Determinar con el punto anterior fallos, \textit{"bugs"} y otros comportamientos no deseados 
@@ -86,7 +86,7 @@ en orden cronológico:
  \item Depurar la herramienta atacando los puntos críticos de la misma.
  \item Realizar nuevas pruebas que muestren que se ha corregido los principales fallos de la herramienta.\\
  
- Para finalizar, el tercer y ultimo objetivo llevara las siguientes actividades: \\
+ Para finalizar, el tercer y último objetivo llevara las siguientes actividades: \\
  
  \item Escoger algoritmos de diferente naturaleza (llámese procesamiento general, procesamiento de señales, 
  procesamiento de video e imágenes, encriptado, transmisión y comunicaciones, etc.) para ser utilizados como los
@@ -101,5 +101,27 @@ en orden cronológico:
  
 \end{enumerate}
 
+\newpage
 \section{Cronograma de actividades}
+
+\begin{figure}[htb]
+\centering
+  \includegraphics[width=160mm, height=175mm]{/home/rojiar/TEC/Anteproyecto/Anteproyecto/fig/Actividades.png}
+  \caption{Actividades de Gantt del Proyecto de Graduación}
+  \label{fig:Actividades de Gantt}
+\end{figure}
+
+\newpage
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=160mm, height=150mm]{/home/rojiar/TEC/Anteproyecto/Anteproyecto/fig/diagrama.png}
+  \caption{Diagrama de Gantt del Proyecto de Graduación}
+  \label{fig:Diagrama de Gantt}
+\end{figure}
+
+
+
+
+
 

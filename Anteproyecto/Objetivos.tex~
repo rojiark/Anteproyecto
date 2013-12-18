@@ -11,18 +11,21 @@
 
 \section{Objetivo General}
 
-Diseñar una herramienta de generación automática de código paralelo a partir de código secuencial para ser utilizada
-como plataforma de programación en dispositivos de múltiples unidades de procesamiento.
+Diseñar una herramienta de generación automática de código paralelo a partir de código secuencial, para ser utilizada
+como plataforma de programación en dispositivos de múltiples unidades de procesamiento.\\
+\textbf{Indicador: Creación de la herramienta}
 
 
 \section{Objetivos Específicos}
 \begin{enumerate}
- \item Optimizar la herramienta existente de generación automatica de codigo C paralelo para la plataforma KeyStone I.\\
- \textbf{Indicador:}
+ \item Optimizar la herramienta existente de generación automática de código C paralelo para la plataforma  KeyStone I.\\
+ \textbf{Indicador: Las modificaciones a la herramienta de generación de la \\KeyStone I permiten obtener una mejoría en las
+ características generales de rendimiento.}
  
- \item Disenar e implementar la herramienta de generación automática de codigo C paralelo para los MPSoC KeyStone II.\\
- \textbf{Indicador:}
+ \item Diseñar e implementar la herramienta de generación automática de codigo C paralelo para los MPSoC KeyStone II.\\
+ \textbf{Indicador: La herramienta desarrollada permite programar las diferentes unidades de procesamiento del MPSoC
+ KeyStone II.}
  
- \item Validar la herramienta creada mediante la programación, compilacion y ejecucion de programas de prueba (\textit{Benchmarks}).\\
- \textbf{Indicador:}
+ \item Validar la herramienta creada mediante la programación, compilación y ejecución de programas de prueba (\textit{Benchmarks}).\\
+ \textbf{Indicador: Gráficos y resultados obtenidos a partir de la aplicación de los Benchmarks.}
 \end{enumerate}

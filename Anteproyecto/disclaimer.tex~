@@ -4,7 +4,7 @@
 
 %\vfill
 
-Declaro que el presente Proyecto de Graduación ha sido realizado enteramente
+Declaro que el presente Anteproyecto de Graduación ha sido realizado enteramente
 por mi persona, utilizando y aplicando literatura referente al tema e
 introduciendo conocimientos propios.
 
@@ -18,9 +18,10 @@ el contenido del correspondiente informe final.
 \vspace*{20mm}
 
 \begin{flushright}
+  \rule{40mm}{0.5pt}\\
   \scriptAuthor\par
   Cartago, \today\par
-  Céd: 1-1373-0768
+  Cédula: 1-1373-0768
 \end{flushright}
 
 %\cleardoublepage

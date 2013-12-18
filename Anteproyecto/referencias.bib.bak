@@ -106,6 +106,16 @@
   timestamp = {2013.12.16}
 }
 
+@MANUAL{KSII1,
+  title = {KeyStone II User's Guide},
+  organization = {Texas Instruments},
+  month = {December},
+  year = {2013},
+  file = {:/home/rojiar/Desktop/Pasantia/Tareas a Realizar Miguel Aguilar/KeyStone/KeyStone II/KS2.pdf:PDF},
+  owner = {rojiar},
+  timestamp = {2013.12.16}
+}
+
 @ELECTRONIC{RWTH_AACHEN_REF,
   month = {Noviembre},
   year = {2013},

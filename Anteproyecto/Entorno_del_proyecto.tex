@@ -9,44 +9,44 @@
 \chapter{Entorno del proyecto}
 \label{ch:Entorno_del_proyecto}
 
-Hoy en día los sistemas embebidos o empotrados se utilizan en muchos de los dispositivos
-y equipos con los cuales el ser humano interacciona o tiene relación alguna. Desde un dispositivos
-móvil como un teléfono celular, pasando por televisores de alta definición, equipos de seguridad
-en medios de transporte y hasta en la industria aeroespacial la cual requiere de los elementos mas robustos
-y de soporte critico, son ejemplos claros de la utilización de los sistemas embebidos.\\
+Los sistemas embebidos o empotrados se utilizan en muchos de los dispositivos
+y equipos con los cuales el ser humano interacciona o tiene relación alguna en la actualidad. Desde un dispositivos
+móviles como un teléfono celular, pasando por televisores de alta definición, equipos de seguridad
+en medios de transporte y hasta en la industria aeroespacial, la cual requiere de los elementos mas robustos
+y de soporte crítico, son ejemplos claros de la utilización de los sistemas embebidos.\\
 
 En general, un sistema empotrado se considera como aquel conjunto de elementos de carácter electrónico y/o
-computacional-informático que  se encuentran relacionados entre si y que tienen como función una aplicación 
-especifica dada.\cite {LERTA} \cite{MK1} \\
+computacional-informático que  se encuentran relacionados entre sí y que tienen como función una aplicación 
+específica dada.\cite {LERTA} \cite{MK1} \\
 
 Hasta hace algunos años la arquitectura de estos dispositivos generalmente fue la utilización de un único procesador, 
-con la tendencia del "escalado en frecuencia" \cite{TAODES} para aumentar las capacidades de los mismos. Sin embargo
+con la tendencia del escalado en frecuencia \cite{TAODES} para aumentar el rendimiento de los mismos. Sin embargo,
 las tendencias han variado y han surgido los Sistemas en Chip de Múltiples Procesadores 
 (\textit{MPSoC, Multi-Processor Systems on Chip}), los cuales integran una gran variedad de dispositivos entre los cuales
-se encuentran elementos con múltiples núcleos de procesamiento.\\
+se encuentran elementos con múltiples núcleos de procesamiento.\\ 
 
-Actualmente estos Sistemas en Chip (\textit{SoC, Systems on Chip}) incorporan en sus unidades de procesamiento central
+Actualmente estos Sistemas en Chip (\textit{SoC, Systems-on-Chip}) incorporan 
 múltiples núcleos de diferente naturaleza entre los cuales se encuentran los Procesadores de Propósito 
-General (\textit{GPP, Global Purpose Processors}) como la gama de procesadores ARM, Procesadores Digitales de 
+General (\textit{GPP, General Purpose Processors}) como la gama de procesadores ARM, Procesadores Digitales de 
 Señales (\textit{DSP, Digital Signal Processors}) que se encuentran de diversos tipos como los 
 especializados para imágenes (\textit{DIP, Digital Image Processor}), así también como los dedicados al tratamiento de gráficos llamados 
 GPU (\textit{GPU, Graphics Processing Units}) \cite{MK2}. Todos los anteriores encapsulados en un mismo circuito integrado o bien 
 incorporados en el SoC que los alberga.\\
 
-Este cambio en el paradigma de la computación de pasar de sistemas de un solo núcleo de procesamiento a los MPSoC trae consigo retos 
+Éste cambio en el paradigma de la computación de pasar de sistemas de un solo núcleo de procesamiento a los MPSoC trae consigo retos 
 que antes no se conocían, tanto para los proveedores como para los desarrolladores de las plataformas. Los modelos de programación cambian 
 de un estándar secuencial a uno paralelo que justamente aproveche el paralelismo inherente a los múltiples procesadores,
 lo que conlleva nuevos métodos de programación, compilación, y ejecución que deben de cumplir y satisfacer los requerimientos 
 característicos de los sistemas embebidos como operación en tiempo real \cite{LERTA_RT}, eficiencia energética y procesamiento limitado.\\
 
-La Universidad de Aquisgran (\textit{RWTH Aachen University}) es uno de los mejores centros académicos y de investigación en diversas
+La Universidad de Aquisgrán (\textit{RWTH Aachen University}) es un centro académico y de investigación en diversas
 ramas de la ingeniería. En la actualidad es reconocida mundialmente por los trabajos realizados en las áreas de ingeniería mecánica, 
 electrónica y ciencias de la computación \cite{RWTH_AACHEN_REF}. Dentro de su sistema académico, la universidad cuenta con diversos centros
-de investigación (institutos) que realizan aportes de punta con nuevas tecnologías y avances, concretando estos mediante publicaciones en revistas
+de investigación (institutos) que realizan aportes de vanguardia con nuevas tecnologías y avances, concretando éstos mediante publicaciones en revistas
 internacionales de alto renombre. Estos centros de investigación son dirigidos mediante Juntas (\textit{Chairs}) 
 que tienen a cargo diversos proyectos tanto en áreas especificas como en áreas multidisciplinarias.\\
 
-Uno de los institutos mas reconocidos por sus aportes a la ciencia es el Instituto de Tecnologías de Comunicaciones y 
+Uno de los institutos con mas publicaciones y aportes a la ciencia es el Instituto de Tecnologías de Comunicaciones y 
 Sistemas Embebidos (\textit{ICE, Institute for Communications Technologies and Embedded Systems}) \cite{ICE_ABOUT}, 
 el cual integra tres de las juntas de mayor importancia en el área de la electrónica y las ciencias 
 de la computación (\textit{SSS, Software for Systems on Silicon; ISS, Integrated Signal Processing; Research Group 
@@ -54,17 +54,16 @@ MPSoC Architectures UMIC Research Cluster}); estos "\textit{Chairs}" colaboran e
 tres áreas vitales de las comunicaciones eléctricas y los sistemas embebidos. 
 
 \begin{itemize}
- \item Algoritmos y esquemas de transmision y recepcion en los sistemas de comunicaciones inalambricas (Grupo Algoritmos)
- \item Hardware y arquitecturas de los chips para sistemas embebidos, en particular para los MPSoC (Grupo Hardware)
- \item Diseno de herramientas a nivel de sistema (\textit{ESL, Electronic System-Level}) para sistemas y circuitos integrados complejos
- (Grupo Herramientas)
+ \item Algoritmos y esquemas de transmisión y recepción en los sistemas de comunicaciones inalámbricas.
+ \item Hardware y arquitecturas de los chips para sistemas embebidos, en particular para los MPSoC.
+ \item Diseño de herramientas a nivel de sistema (\textit{ESL, Electronic System-Level}) para sistemas y circuitos integrados complejos.
 \end{itemize}
 
 En la actualidad el Instituto cuenta con una aplicación llamada MAPS (\textit{MAPS, MPSoC Application Programming Studio}) \cite{MAPS1}, la cual
 consiste en un sistema de herramientas que asisten a los programadores en la paralelización de código secuencial C. La interfaz del usuario
 esta basada en las herramientas de C/C++ del ambiente de desarrollo Eclipse.\\
 
-A pesar de la gran cantidad de tiempo que se ha invertido en el desarrollo de la aplicación MAPS, esta no se encuentra concluida y solo 
+A pesar de la gran cantidad de tiempo que se ha invertido en el desarrollo de la aplicación MAPS, ésta no se encuentra concluida y solo 
 cuenta con soporte para determinadas plataformas de desarrollo, entre ellas un soporte limitado para la KeyStone I \cite{KSI1}, la cual es
 una plataforma de múltiples unidades de procesamiento (\textit{PE, Processing Elements}) homogéneas, en este caso DSP's. Parte del soporte 
 que del todo no se encuentra es para las arquitecturas de KeyStone II \cite{KSII1}, cuya estructura consta de unidades de procesamiento 

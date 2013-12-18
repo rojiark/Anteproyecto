@@ -1,27 +1,36 @@
+%% ---------------------------------------------------------------------------
+%% Enfoque_de_la_solucion.tex
+%%
+%% Enfoque de la solución
+%%
+%% rojiark
+%% ---------------------------------------------------------------------------
+
+
 \chapter{Enfoque de la solución}
 \label{ch:Enfoque_de_la_solucion}
 
 El enfoque que se pretende dar a la solución se basa en la utilización de un lenguaje de programación
 de alto nivel como lo es C, para el diseño e implementación de un algoritmo que permita la programación
 de diferentes unidades de procesamiento en plataformas MPSoC. El desarrollo va a ser realizado en un ambiente
-Linux que facilite el uso de los recursos de la plataforma así como la depuración y evaluación de los diferentes
+Linux que facilite el uso de los recursos de la plataforma, así como la depuración y evaluación de los diferentes
 componentes de hardware que se emplearan.\\
 
 Además del lenguaje a utilizar, se pretende manejar otros elementos a nivel de software como lo son simuladores, 
 depuradores y las bibliotecas para compilación cruzada, los cuales estarán integrados dentro de un ambiente de 
 desarrollo (\textit{IDE, Integrated Development Enviroment}) de Texas Instruments que podrá ser descargado y 
-utilizado sin algún costo. Sin embargo, deberá desarrollarse interfaces especificas 
+utilizado sin algún costo. Sin embargo, deberá desarrollarse interfaces específicas 
 (\textit{API's, Application Programming Interface}) que puedan integrarse al IDE de Texas Instruments para 
 la correcta validación de lo realizado.\\
 
-Agregado a lo anterior se manipularan plataformas de hardware destinadas a ser los elementos objetivo de la
-programación, específicamente KeyStone I y II. La primera tiene como unidades de procesamiento 8 DSP's 
+Agregado a lo anterior, se manipularán plataformas de hardware destinadas a ser los elementos objetivo de la
+programación, específicamente las KeyStone I y II. La primera tiene como unidades de procesamiento 8 DSP's 
 TMS320C66x, mientras que la segunda implementa en su arquitectura la misma cantidad y tipo de DSP's
 mas 4 procesadores de propósito general ARM Cortex-A15.\\
 
-También sera necesario utilizar diversos instrumentos de medición como analizadores lógicos y osciloscopios
+También será necesario utilizar diversos instrumentos de medición como analizadores lógicos y osciloscopios
 que permitan la depuración mediante señales eléctricas de los comportamientos no deseados en el sistema en general.\\
 
 Con lo anterior establecido entonces se podrá realizar la programación del algoritmo y su posterior depuración, para
-determinar la eficiencia o calidad que va a tener el mismo en cuanto a consumo de recursos de los CPU/DSP (como registros,
-memoria, unidades aritméticas, etc.) y contar con los datos suficientes y correctos que permitan establecer
+determinar la eficiencia y calidad que va a tener el mismo en cuanto a consumo de recursos de los CPU/DSP como registros,
+memoria, unidades aritméticas, etc.
