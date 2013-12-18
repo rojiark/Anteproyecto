@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.12.2)  17 DEC 2013 03:14
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.12.2)  17 DEC 2013 22:14
 entering extended mode
  %&-line parsing enabled.
 **Anteproyecto_main.tex
@@ -1100,25 +1100,35 @@ LaTeX Info: Redefining \pageref on input line 74.
 \openout2 = `titlepage.aux'.
 
  (./titlepage.tex
-</home/rojiar/TEC/Anteproyecto/Anteproyecto/fig/TEC.pdf, id=75, 154.5775pt x 21
-1.79124pt>
-File: /home/rojiar/TEC/Anteproyecto/Anteproyecto/fig/TEC.pdf Graphic file (type
- pdf)
- <use /home/rojiar/TEC/Anteproyecto/Anteproyecto/fig/TEC.pdf>)
-[1
+
+! LaTeX Error: File `/home/GIT-Rep/Anteproyecto/Anteproyecto/fig/TEC' not found
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...GIT-Rep/Anteproyecto/Anteproyecto/fig/TEC}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/rojiar/TEC/Anteproye
-cto/Anteproyecto/fig/TEC.pdf>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 \openout2 = `disclaimer.aux'.
 
- (./disclaimer.tex) [2
+ (./disclaimer.tex)
+[2
 
 
-]
-(./Anteproyecto_main.toc
+] (./Anteproyecto_main.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 5.
- (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 5.
@@ -1369,10 +1379,10 @@ AED: lastpage setting LastPage (./Anteproyecto_main.aux (./titlepage.aux)
 (./Procedimientos_para_la_ejecucion_del_proyecto.aux) (./Uso_de_recursos.aux)
 (./Presupuesto.aux)) ) 
 Here is how much of TeX's memory you used:
- 8740 strings out of 494999
- 123252 string characters out of 1180816
+ 8747 strings out of 494999
+ 123050 string characters out of 1180816
  211348 words of memory out of 3000000
- 11534 multiletter control sequences out of 15000+50000
+ 11530 multiletter control sequences out of 15000+50000
  12732 words of font info for 48 fonts, out of 3000000 for 9000
  54 hyphenation exceptions out of 8191
  40i,12n,43p,399b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1383,9 +1393,9 @@ texmf-texlive/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texmf-texli
 ve/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/ty
 pe1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/
 amsfonts/cm/cmtt12.pfb>
-Output written on Anteproyecto_main.pdf (20 pages, 154530 bytes).
+Output written on Anteproyecto_main.pdf (20 pages, 151299 bytes).
 PDF statistics:
- 293 PDF objects out of 1000 (max. 8388607)
+ 288 PDF objects out of 1000 (max. 8388607)
  84 named destinations out of 1000 (max. 500000)
- 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
