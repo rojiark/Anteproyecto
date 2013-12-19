@@ -10,9 +10,9 @@
 \label{ch:Entorno_del_proyecto}
 
 Los sistemas embebidos o empotrados se utilizan en muchos de los dispositivos
-y equipos con los cuales el ser humano interacciona o tiene relación alguna en la actualidad. Desde un dispositivos
+y equipos con los cuales el ser humano interacciona o tiene relación alguna en la actualidad. Desde dispositivos
 móviles como un teléfono celular, pasando por televisores de alta definición, equipos de seguridad
-en medios de transporte y hasta en la industria aeroespacial, la cual requiere de los elementos mas robustos
+en medios de transporte y hasta en la industria aeroespacial, la cual requiere de los elementos más robustos
 y de soporte crítico, son ejemplos claros de la utilización de los sistemas embebidos.\\
 
 En general, un sistema empotrado se considera como aquel conjunto de elementos de carácter electrónico y/o
@@ -42,7 +42,7 @@ característicos de los sistemas embebidos como operación en tiempo real \cite{
 La Universidad de Aquisgrán (\textit{RWTH Aachen University}) es un centro académico y de investigación en diversas
 ramas de la ingeniería. En la actualidad es reconocida mundialmente por los trabajos realizados en las áreas de ingeniería mecánica, 
 electrónica y ciencias de la computación \cite{RWTH_AACHEN_REF}. Dentro de su sistema académico, la universidad cuenta con diversos centros
-de investigación (institutos) que realizan aportes de vanguardia con nuevas tecnologías y avances, concretando éstos mediante publicaciones en revistas
+de investigación (institutos) que realizan aportes de vanguardia con nuevas tecnologías y avances, concretando estos mediante publicaciones en revistas
 internacionales de alto renombre. Estos centros de investigación son dirigidos mediante Juntas (\textit{Chairs}) 
 que tienen a cargo diversos proyectos tanto en áreas especificas como en áreas multidisciplinarias.\\
 
@@ -63,7 +63,7 @@ En la actualidad el Instituto cuenta con una aplicación llamada MAPS (\textit{M
 consiste en un sistema de herramientas que asisten a los programadores en la paralelización de código secuencial C. La interfaz del usuario
 esta basada en las herramientas de C/C++ del ambiente de desarrollo Eclipse.\\
 
-A pesar de la gran cantidad de tiempo que se ha invertido en el desarrollo de la aplicación MAPS, esta no se encuentra concluida y solo 
+A pesar de la gran cantidad de tiempo que se ha invertido en el desarrollo de la aplicación MAPS, ésta no se encuentra concluida y solo 
 cuenta con soporte para determinadas plataformas de desarrollo, entre ellas un soporte limitado para la KeyStone I \cite{KSI1}, la cual es
 una plataforma de múltiples unidades de procesamiento (\textit{PE, Processing Elements}) homogéneas, en este caso DSP's. Parte del soporte 
 que del todo no se encuentra es para las arquitecturas de KeyStone II \cite{KSII1}, cuya estructura consta de unidades de procesamiento 
