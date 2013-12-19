@@ -16,7 +16,8 @@ en su totalidad por \textit{RWTH Aachen University}, dichos datos se observan en
 \ref{tab:Presupuesto del equipo, materiales, software y recurso humano en RWTH Aachen University}
 
 Con respecto a los costos estimados de los gastos de viaje, transporte y alimentación durante la
-estadía en la ciudad alemana de Aachen, los cuales van a ser cubiertos por mi persona,
+estadía en la ciudad alemana de Aachen, los cuales van a ser cubiertos en parte por la beca Movilidad
+Internacional Estudiantil de la rectoría del \textit{Instituto Tecnológico de Costa Rica} y por mi persona,
 se muestran en la Tabla \ref{tab:Presupuesto del costo de vida durante 6 meses en Alemania}
 
 \begin{table}[ht]
@@ -27,10 +28,10 @@ se muestran en la Tabla \ref{tab:Presupuesto del costo de vida durante 6 meses e
    \hline\hline
    Gasto / Mes 		& 1   & 2 & 3 & 4 & 5 & 6 			\\ \hline\hline
    Transporte(\$) 	& 50  & 50 & 50 & 50 & 50 & 50 			\\ \hline
-   Alimentacion(\$) 	& 300 & 300 & 300 & 300 & 300 & 300 		\\ \hline
+   Alimentación(\$) 	& 300 & 300 & 300 & 300 & 300 & 300 		\\ \hline
    Hospedaje(\$) 	& 700 & 700 & 700 & 700 & 700 & 700 		\\ \hline
-   Telefonia(\$) 	& 100 & 100 & 100 & 100 & 100 & 100 		\\ \hline
-   Tiquetes aereos(\$) & 1500 & 0 & 0 & 0 & 0 & 0 			\\ \hline
+   Telefonía(\$) 	& 100 & 100 & 100 & 100 & 100 & 100 		\\ \hline
+   Tiquetes aéreos(\$) & 1500 & 0 & 0 & 0 & 0 & 0 			\\ \hline
    Total Semestral(\$) & 2650 & 1150 & 1150 & 1150 & 1150 & 1150	\\ \hline
    Total de los 6 meses completos(\$) & \multicolumn{1}{r}{}  & \multicolumn{1}{r}{} & \multicolumn{1}{r}{} & \multicolumn{1}{r}{8400} & \multicolumn{1}{r}{} & \multicolumn{1}{r|}{} 	\\ \hline\hline
 
